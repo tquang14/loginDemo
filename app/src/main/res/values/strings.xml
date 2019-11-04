@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">loginDemo</string>
+    <string-array name="DanToc">
+        <item>Dân tộc Kinh</item>
+        <item>Dân tộc khác</item>
+    </string-array>
+</resources>

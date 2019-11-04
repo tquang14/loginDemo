@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bridge"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="55dp"
+                android:padding="16dp"
+                android:src="@drawable/paper_planes"/>
+            <EditText
+                android:id="@+id/edtUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:padding="12dp"
+                android:drawablePadding="12dp"
+                android:hint="username"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:drawableLeft="@drawable/ic_person" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#fff"/>
+            <EditText
+                android:id="@+id/edtPassWord"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:padding="12dp"
+                android:drawablePadding="12dp"
+                android:hint="password"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:drawableLeft="@drawable/ic_lock_icon"
+                android:layout_marginTop="6dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#fff"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remeber me"
+                android:textColor="#fff"
+                android:layout_marginTop="12dp" />
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="login"
+                android:textSize="25dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#f16f71"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sign up"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#f16f71"
+                android:background="#f08b98"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foget password"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:layout_marginTop="12dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+
