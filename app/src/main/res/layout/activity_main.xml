@@ -37,7 +37,8 @@
                 android:hint="username"
                 android:textColorHint="#fff"
                 android:textColor="#fff"
-                android:drawableLeft="@drawable/ic_person" />
+                android:drawableLeft="@drawable/ic_person"
+                android:backgroundTint="@color/colorAccent"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"

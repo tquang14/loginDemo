@@ -15,9 +15,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="127dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="110dp"
         android:text="Họ Tên"
         android:textSize="24sp" />
 
@@ -28,8 +28,8 @@
         android:layout_below="@+id/tV_hoTen"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
         android:text="Ngày sinh"
         android:textSize="24sp" />
@@ -41,9 +41,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="110dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="24sp" />
@@ -55,9 +55,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="175dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:ems="10"
         android:inputType="date" />
 
@@ -66,26 +66,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="250dp"
-        android:layout_marginEnd="195dp"
-        android:layout_marginRight="15dp">
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="233dp"
+        android:layout_marginLeft="170dp"
+        android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/rbNam"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="Nam"
-            android:textSize="18sp"
-            android:checked="true"/>
+            android:textSize="18sp" />
 
         <RadioButton
             android:id="@+id/rbNu"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nữ"
-            android:textSize="18sp"/>
+            android:textSize="18sp" />
     </RadioGroup>
 
     <TextView
@@ -95,9 +95,9 @@
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="25dp"
         android:text="Giới tính"
         android:textSize="24sp" />
 
@@ -108,9 +108,9 @@
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="10dp"
         android:text="Đoàn"
         android:textSize="24sp" />
 
@@ -121,8 +121,8 @@
         android:text="Vào đoàn"
         android:textSize="18sp"
         android:layout_below="@+id/rbG"
-        android:layout_marginTop="26dp"
-        android:layout_marginLeft="80dp"/>
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="170dp"/>
 
     <CheckBox
         android:id="@+id/cbDongTien"
@@ -130,9 +130,9 @@
         android:layout_height="wrap_content"
         android:text="Đóng tiền"
         android:textSize="18sp"
-        android:layout_below="@+id/rbG"
-        android:layout_marginTop="26dp"
-        android:layout_marginLeft="185dp"/>
+        android:layout_below="@+id/cbVaoDoan"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="170dp"/>
 
     <CheckBox
         android:id="@+id/cbTotNghiep"
@@ -140,9 +140,9 @@
         android:layout_height="wrap_content"
         android:text="Tốt nghiệp"
         android:textSize="18sp"
-        android:layout_below="@+id/rbG"
-        android:layout_marginTop="26dp"
-        android:layout_marginLeft="290dp"/>
+        android:layout_below="@+id/cbDongTien"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="170dp"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -153,7 +153,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginStart="15dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="80dp"
         android:text="Dân tộc"
         android:textSize="24sp" />
 
@@ -163,7 +163,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_marginLeft="120dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="82dp"
         android:popupBackground="@android:color/holo_blue_dark" />
 
     <ProgressBar
@@ -179,7 +179,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginEnd="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginBottom="157dp"
+        android:layout_marginBottom="110dp"
         android:progress="0"
         android:max="100"/>
 
@@ -188,6 +188,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Đăng ký"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
@@ -196,7 +199,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginEnd="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginBottom="120dp" />
+        android:layout_marginBottom="50dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabDel"
